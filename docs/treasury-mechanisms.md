@@ -21,6 +21,34 @@ Solutions: A fully on-chain solution is not fundamentally necessary for a functi
 ## Implementations
 
 A Treasury Mechanism is a framework for managing on-chain funds through security and governance structures that ensure controlled access, accountability, and adaptability within a decentralized system. Below are different potential implementations of treasury mechanisms.
+  
+### Treasury Multisig Wallet (Top Representitives)
+
+The Treasury Multisig Wallet is a basic multisig wallet controlled by the top 10 (exact number TBD) representitives in the ecosystem by delegated voting power. It functions as a traditional multi-signature wallet requiring a fixed threshold of representitive signatures to authorize and execute treasury transactions.
+
+The multisig wallet has the following properties:
+
+1. Signer List – The authorized signers consist of the current top 10 representitives by delegated voting power. The list is defined off-chain and can be updated via the multisig process to reflect changes in rankings every 90 days (or as determined by the DAO).
+2. Signature Threshold – A minimum of 7 out of 10 signatures is required to approve any transaction.
+3. Transaction Process – Representitives prepare a transaction, collect off-chain signatures from peers, and submit the signed transaction on-chain once the threshold is met.
+4. Signer Updates – To update the signer list the same 7-of-10 signature process is used to execute the contract upgrade.
+5. No Additional Restrictions – There are no mandatory waiting periods, withdrawal caps, or specialized on-chain proposal cells.
+
+If the deposit address must remain static to ensure a treasury hard fork is not required (TBD), then a custom multisig lock will need to be used which does not require a change of the args field, which forces an address change.
+
+A representitive eligible for the multisig wallet must meet the following criteria:
+
+1. Well-Known and KYC-Verified – Must be a publicly recognized individual who has completed KYC verification.
+2. Active in the CKB Ecosystem - Must have a history of active participation in the CKB ecosystem, and in the DAO itself.
+3. Demonstrated Strong Moral Character – Must have a proven track record of ethical behavior and responsibility.
+4. Long-Term Commitment to the CKB Ecosystem – Must show dedication to the ecosystem’s growth and sustainability.
+5. Technically Savvy – Must be capable of using DAO governance tools for vault management and proposal review.
+
+A representitive who is on the Treasury List receives a small stipend for their participation and an additional stipend for each vote they participate in. This helps incentivize qualified individuals to take part in this process, and high turnover must be discouraged to mitigate revolving door risk. Incentives also help get a greater number of willing participants, which reduces individual risk.
+
+Challenges to the qualifications of any individual can be resolved through a stakeholder vote using the DAO.
+
+The wallet is designed to be a simple and secure way to manage treasury funds while maintaining a high-level transparency. It is a straightforward approach that can be implemented quickly and does not forbid a later move to more sophisticated treasury mechanism in the future.
 
 ### Treasury Vault and Treasury Guardian System (Vote-Based Proposals)
 
