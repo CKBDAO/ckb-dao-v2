@@ -2,15 +2,17 @@
 
  This repository contains the proposal documents for Nervos Community Fund DAO v2.0. This document directory is intended to be a living document, and will be updated as the DAO evolves and new proposals are submitted.
 
-All questions and comments should be directed to the GitHub Issues page, or the Nervos Talk forum.
+Questions and comments can be added as [GitHub Issues](https://github.com/CKBDAO/ckb-dao-v2/issues) or discussed on the Nervos Talk forum post.
 
  ## Documents
 
-🎯 [**Mission & Values**](docs/mission-and-values.md) - Outlines the DAO's purpose, core values, key challenges, and gives rationales for many of the key decisions.
+🎯 [**Mission & Values**](docs/mission-and-values.md) - Outlines the core principles, long-term vision, and guiding values that will shape the DAO’s structure, governance, and community culture. This document also attempts to outline many of the reasons why some decisions exist, based on previous experiences with DAOs and governance in general.
 
-🗳️ [**Delegated Representatives**](docs/delegated-representatives.md) - Describes the governance model for vote delegation, representative roles, and DAO portal components.
+🗳️ [**Delegated Representatives**](docs/delegated-representatives.md) - Defines a core model for DAO governance based on voting power delegation to community representatives.
 
-💰 [**Treasury Mechanisms**](docs/treasury-mechanisms.md) - Explores strategies for secure and efficient management of DAO treasury funds via vaults and guardians.
+📜 [**DAO Rules**](docs/dao-rules.md) - Outlines the constitutional rules and soft rules that govern the DAO’s decision‑making process, including representative voting types, grant proposal guidelines, oversight timelines, and amendment thresholds.
+
+💰 [**Treasury Mechanisms**](docs/treasury-mechanisms.md) - Outlines the challenges of how to manage large amounts of CKB funds through a treasury issuance, and describes several different methods of how it can be managed in a decentralized manner.
 
 👥 [**Community Roles**](docs/community-roles.md) - Defines community-funded roles, their responsibilities, and operational questions about role management and renewal.
 

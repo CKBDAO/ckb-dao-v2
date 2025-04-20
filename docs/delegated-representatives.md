@@ -15,7 +15,7 @@ that most of the time representatives will carry this out on behalf of the commu
 This DAO is being designed with the Nervos DAO treasury in mind as a source of funding, but
 most of the concepts will work with any funding source.
 
-The information in this document may overlap with **Mission & Values**, which will be combined at a later date.
+The information in this document may overlap with [Mission & Values](./mission-and-values.md), which will be combined at a later date.
 
 ## Representatives
 
@@ -72,39 +72,19 @@ has been created for **Community Roles** that are funded by the DAO.
 
 ### Role Definition
  
-- **Auditor:** Responsible for ensuring that processes remain transparent and accurate.
-  When meetings are taking place, the auditor ensures that the content of the discussion
-  is made available to the public and is unadulterated. Also responsible for the first review
-  of fraud reports to determine if they are frivolous or warrant additional attention by the
-  community and representatives.
-- **Proposal Screener:** Responsible for taking the first look at proposals that have been
-  drafted and ensuring that they have followed procedure before the proposal is made
-  public and representatives are called to review and vote on it.
-- **Project Reviewer:** Responsible for reviewing projects periodically when they reach
-  milestones to ensure that the work meets expectations before payment. Also responsible
-  for reviewing project components completed in other ecosystems if they are requesting
-  an integration grant, to evaluate benefit to the Nervos community.
-- **Technical Reviewer:** Responsible for doing deeper technical reviews on projects when
-  necessary to accurately determine if grant expectations are met. A technical reviewer
-  gives an opinion on whether the code is up to reasonable expectations, but they are not
-  responsible for bugs or exploits, and this is not a replacement for audits.
-- **Industry Experts:** Brought in as needed to review proposals or deliverables when their
-  experience and insight are deemed beneficial to the process review process. Experts
-  may also be brought in for forensic examination in the case of fraud investigation.
-- **Moderator:** Responsible for removing spam from the DAO platform and helping to keep
-  the peace between community members when disagreements occur.
-- **Platform maintenance:** Responsible for ensuring that the DAO platform itself is properly
-  maintained and secured.
-- **Communication Manager:** Responsible for ensuring that relevant issues regarding the
-  DAO are communicated properly to the public and internally to the representatives in a
-  timely manner.
-- **Treasurer:** Responsible for maintaining a small amount of funds in a multi-sig treasury
-  "hot wallet" that is used to pay grant recipients quickly as they qualify for payments.
-- **Vault Guardian:** A well-known and KYC-verified delegate that holds a voting key as part
-  of the treasury vault smart contract which releases treasury funds to wallets controlled
-  by Treasurers.
-  
+- **Auditor:** Responsible for ensuring that processes remain transparent and accurate. When meetings are taking place, the auditor ensures that the content of the discussion is made available to the public and is unadulterated. Also responsible for the first review of fraud reports to determine if they are frivolous or warrant additional attention by the community and representatives.
+- **Proposal Screener:** Responsible for taking the first look at proposals that have been drafted and ensuring that they have followed procedure before the proposal is made public and representatives are called to review and vote on it.
+- **Project Reviewer:** Responsible for reviewing projects periodically when they reach  milestones to ensure that the work meets expectations before payment. Also responsible  for reviewing project components completed in other ecosystems if they are requesting  an integration grant, to evaluate benefit to the Nervos community.
+- **Technical Reviewer:** Responsible for doing deeper technical reviews on projects when necessary to accurately determine if grant expectations are met. A technical reviewer gives an opinion on whether the code is up to reasonable expectations, but they are not responsible for bugs or exploits, and this is not a replacement for audits.
+- **Industry Experts:** Brought in as needed to review proposals or deliverables when their experience and insight are deemed beneficial to the process review process. Experts may also be brought in for forensic examination in the case of fraud investigation.
+- **Moderator:** Responsible for removing spam from the DAO platform and helping to keep the peace between community members when disagreements occur.
+- **Platform Maintainer:** Responsible for ensuring that the DAO platform itself is properly maintained and secured.
+- **Communication Manager:** Responsible for ensuring that relevant issues regarding the DAO are communicated properly to the public and internally to the representatives in a  timely manner.
+- **Treasurer:** Responsible for maintaining a small amount of funds in a multi-sig treasury "hot wallet" that is used to pay grant recipients quickly as they qualify for payments.
+- **Vault Guardian:** A well-known and KYC-verified delegate that holds a voting key as part of the treasury vault smart contract which releases treasury funds to wallets controlled by Treasurers.
+
 All processes for the screening and appointment of individuals to specific roles must be done in public view as much as possible. A single person may take on multiple different roles. Not all roles will be needed immediately, and these roles are expected to evolve.
+
 ## Platform
 
 The DAO voting interface will primarily be web 2.0 based using open source software with applicable binding to web3 where necessary. All essential voting data will be publicly available so validity can be proven by anyone using freely available tools. Essential data required for proving will be published to one or more decentralized public locations, such as CKBFS, to ensure that permanent records will not be lost.
