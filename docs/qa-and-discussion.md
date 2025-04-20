@@ -1,6 +1,6 @@
  # Q&A and Discussion
 
- A concise summary of key questions and answers regarding DAO design, voting, and governance.
+ A concise summary of key questions and answers regarding DAO design, voting, and governance. These questions are summarizations of the discussions and feedback from the community.
 
  ## Voting User Experience
 
@@ -8,7 +8,7 @@
  **A:** Use email notifications and social media for alerts. Wallets can embed a web view for proposal submission and voting, but core notifications rely on existing systems.
 
  **Q: Should the platform be fully decentralized and serverless?**  
- **A:** Fully serverless is unlikely in current timelines. Centralized services are acceptable if results are provably verifiable.
+ **A:** Fully on-chain decentralized solutions are unlikely in current timelines and introduce a lot of usability challenges. Hybrid Web5 services provide a more realistic solution as long as results remain provably verifiable.
 
  **Q: Is mobile compatibility important?**  
  **A:** Yes, mobile support is crucial for wider adoption.
@@ -16,15 +16,15 @@
  ## Representative Requirements
 
  **Q: Should representatives undergo KYC or lock up stake?**  
- **A:** KYC can be strongly recommended using privacy-preserving services but not mandatory. Requiring a CKB stake adds complexity and may deter qualified candidates, so it is not required.
+ **A:** KYC can be strongly recommended using privacy-preserving services but not mandatory. Requiring a CKB stake adds complexity with little to no benefit and may deter qualified candidates, so it is not required.
 
  **Q: How should abstentions and non-votes be handled?**  
- **A:** Maintain an “Abstain” option and add “Absent” for non-participation. Track vote rationale and publish representative voting statistics for accountability.
+ **A:** Maintain an "Abstain" option and add "Absent" for non-participation. Representative voting statistics and history will be fully available for accountability.
 
  ## Proposal Submission
 
  **Q: Is a 100k CKB fee too high? How to set a fair barrier?**  
- **A:** Implement a modest “waste-of-time” fee pegged to a USD equivalent, refundable under defined criteria. Provide waivers or sponsorship for applicants in disadvantaged regions.
+ **A:** Implement a modest "waste-of-time" fee pegged to a USD equivalent, refundable under defined criteria. Provide waivers or sponsorship for applicants in disadvantaged regions.
 
  ## Voting Power and Token Types
 
@@ -34,7 +34,7 @@
  ## Governance and Incident Handling
 
  **Q: How to address problematic voting incidents?**  
- **A:** Enable community-triggered votes to remove (“fire”) representatives in misconduct cases, using procedures that cannot be blocked by delegates.
+ **A:** Representatives involved in misconduct cases are still subject to local law and may face legal consequences, which is why KYC is recommended. Users can take direct action through liquid democracy; shifting their delegated power to another representative immediately.
 
  **Q: Who audits and oversees DAO activities?**  
  **A:** Auditors review processes and fraud reports via a confidential ticketing system. Report status updates are public; details are published post-review or after a delay.
@@ -46,3 +46,6 @@
 
  **Q: Should DAO ambassadors or business development roles exist?**  
  **A:** Yes, as community-funded roles separate from core DAO operational roles, responsible for scouting and securing high-quality proposals.
+
+
+ 
