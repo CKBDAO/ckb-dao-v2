@@ -99,7 +99,7 @@ has been created for **Community Roles** that are funded by the DAO.
   DAO are communicated properly to the public and internally to the representatives in a
   timely manner.
 - **Treasurer:** Responsible for maintaining a small amount of funds in a multi-sig treasury
-  “hot wallet” that is used to pay grant recipients quickly as they qualify for payments.
+  "hot wallet" that is used to pay grant recipients quickly as they qualify for payments.
 - **Vault Guardian:** A well-known and KYC-verified delegate that holds a voting key as part
   of the treasury vault smart contract which releases treasury funds to wallets controlled
   by Treasurers.
@@ -217,7 +217,7 @@ Vault Guardian receives a small stipend for their participation and an additiona
 Rationale: This role is important and has risks associated since there are large sums of funds at stake. Extra care must be taken to ensure that only qualified individuals can take part in this process, and high turnover must be discouraged to mitigate revolving door risk.
 ### Treasury Wallets
 
-A treasury wallet is a multi-sig wallet controlled by Treasurers. This is a normal wallet that uses standard locks and can make payments to anyone without waiting periods. A Treasury Wallet is a “hot wallet” that is used to pay grant proposals and any outstanding dues.
+A treasury wallet is a multi-sig wallet controlled by Treasurers. This is a normal wallet that uses standard locks and can make payments to anyone without waiting periods. A Treasury Wallet is a "hot wallet" that is used to pay grant proposals and any outstanding dues.
 
 The ecosystem is not limited to a single Treasury Wallet. Many may exist for different purposes. These wallets have limited funds available for use and are expected to require refills from the Treasury Vault.
 
