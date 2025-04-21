@@ -114,7 +114,7 @@ The following are the main sections of the DAO portal.
 
 Voting on the platform is collected and tallied primarily using off-chain systems that allow for robust programmability. This is similar to the existing Metaforo, but the process for binding must make user-friendliness a priority. Address binding must be accomplishable by an average user in 30 seconds or less.
 
-Rationale: On-chain voting is complicated and inflexible while offering few benefits to the process at this stage. Future implementations should always consider full on-chain voting, but it should not be utilized unless it is deemed to have undeniable benefits that are realistically feasible.
+Rationale: On-chain voting is complicated and inflexible while offering few benefits to the process at this stage. Future implementations should always consider full on-chain voting, but it should not be utilized unless it is deemed to have undeniable benefits that are realistically feasible both in timeline, budget, and usability. Remaining agile and flexible is of great benefit in the early stages of any new process. Community non-participation is the single greatest threat to decentralization.
 
 Proposals will be voted on by representatives or by community members directly through the platform. When a community member delegates voting power, it does not exclude them from voting directly on a particular issue. When a user votes directly, their voting power is retained for their vote rather than being delegated on that particular proposal.
 
@@ -224,6 +224,7 @@ Many roles in the community are currently being funded through centralized organ
 All roles should be subject to a policy of periodic reevaluation and renewal. This means that all roles expire by default and can only be renewed through new grants.
 
 The details about the roles themselves are beyond the scope of this document and have been moved to **Nervos Community Fund DAO v2.0 - Community Roles**.
+
 ## Wallet Support and Binding Process
 
 Both wide wallet support and superior user-friendliness are important, but their concerns are generally at odds with each other.
@@ -235,3 +236,5 @@ Ledger wallets and other existing hardware and software wallets can and should h
 User-friendliness can be addressed by extending features to better integrate wallets with the DAO. Using an aggregated message packet format could reduce the binding process to a single step regardless of how many addresses are used within the wallet. Using a custom API between wallets and the DAO would go one step further to ensure that the user can refresh bindings/balances with a single click in their wallet. This level of functionality is realistically attainable with proper cooperation between teams.
 
 Pursuing both angles will give us the best compromise realistically attainable. Tier 1 ecosystem wallets will have seamless integration. Tier 2 ecosystem wallets will still be able to participate but their binding protocol will be more tedious.
+
+More detailed information about the binding process can be found in [Address Binding Protocol](address-binding-protocol.md).
