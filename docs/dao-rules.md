@@ -43,3 +43,10 @@ There are two primary types of voting that can be used to make decisions within 
 1. Grant proposal screening must be completed by a designated DAO screener in 7 days or less, with strong recommendation that it occur within 3 days.
 1. Grant proposal feasibility review must be completed by a designated DAO technical reviewer in 7 days or less, with strong recommendation that it occur within 3 days.
 1. Grant proposal project review must be completed by a designated DAO project reviewer in 7 days or less, with strong recommendation that it occur within 3 days.
+
+### Public Funding Policies
+
+1. Public funding implies public code. Every project that received grant funding must agree to open source the Nervos specific portions of the project. This is typically smart contract code, and transaction generation code. It does not include the project's complete codeebase.
+1. Projects that receive grant funding in excess of $50,000 USD must agree to provide a reasonable means for the Nervos community to persist the project if the team chooses to abandon it. In most cases the most simple way to accomplish this is to transfer the full source code and all relevant data, accounts, and rights, to a community team that can takeover operation of the project. If a suitable team cannot be found, the project must be open sourced completely.
+1. Projects that sell virtual assets must agree to provide a reasonable means for the Nervos community to persist said assets if the team chooses to abandon it. Failing to do so is considered a breach of contract, gross negligence, and destruction of personal property.
+1. Projects that fail to meet the requirements of the public funding policies must return the full amount of the grant to the DAO treasury within 90 days of the violation. Projects that are in violation and fail to repay the grant within the 90 day period are subject to pursuit of legal action.
