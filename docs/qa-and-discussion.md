@@ -1,51 +1,47 @@
- # Q&A and Discussion
+# Q&A and Discussion
 
- A concise summary of key questions and answers regarding DAO design, voting, and governance. These questions are summarizations of the discussions and feedback from the community.
+A concise summary of key questions and answers regarding DAO design, voting, and governance. These questions are summarizations of the discussions and feedback from the community.
 
- ## Voting User Experience
+## Platform and User Experience
 
- **Q: How should users receive proposal notifications and participate?**  
- **A:** Use email notifications and social media for alerts. Wallets can embed a web view for proposal submission and voting, but core notifications rely on existing systems.
+**Q: How should users receive proposal notifications and participate?**  
+**A:** Use email notifications and social media for alerts. Wallets can embed a web view for proposal submission and voting, but core notifications rely on existing systems.
 
- **Q: Should the platform be fully decentralized and serverless?**  
- **A:** Fully on-chain decentralized solutions are unlikely in current timelines and introduce a lot of usability challenges. Hybrid Web5 services provide a more realistic solution as long as results remain provably verifiable.
+**Q: Should the platform be fully decentralized and serverless?**  
+**A:** Fully on-chain decentralized solutions are unlikely in current timelines and introduce a lot of usability challenges. Hybrid Web5 services provide a more realistic solution as long as results remain provably verifiable.
 
- **Q: Is mobile compatibility important?**  
- **A:** Yes, mobile support is crucial for wider adoption.
+**Q: Is mobile compatibility important?**  
+**A:** Yes, mobile support is crucial for wider adoption.
 
- ## Representative Requirements
+## Voting Mechanics
 
- **Q: Should representatives undergo KYC or lock up stake?**  
- **A:** KYC can be strongly recommended using privacy-preserving services but not mandatory. Requiring a CKB stake adds complexity with little to no benefit and may deter qualified candidates, so it is not required.
+**Q: How should abstentions and non-votes be handled?**  
+**A:** Maintain an "Abstain" option and add "Absent" for non-participation. Representative voting statistics and history will be fully available for accountability.
 
- **Q: How should abstentions and non-votes be handled?**  
- **A:** Maintain an "Abstain" option and add "Absent" for non-participation. Representative voting statistics and history will be fully available for accountability.
+**Q: How to mitigate delegate voting power concentration?**  
+**A:** While saturation algorithms (diminishing returns on delegation) were considered, they introduce vulnerabilities to Sybil attacks without KYC and may over-empower anonymous large holders. The liquid democracy approach allows token holders to immediately withdraw delegation if representatives act against their interests. Transparency and active participation remain the primary mitigations.
 
- ## Proposal Submission
+**Q: Should iCKB or unlocked CKB be recognized for voting?**  
+**A:** Yes. To prevent borrow-based attacks, new UTXOs start with zero voting weight and scale to full weight over 180 epochs (~30 days), aligning with Nervos DAO lockup logic.
 
- **Q: Is a 100k CKB fee too high? How to set a fair barrier?**  
- **A:** Implement a modest "waste-of-time" fee pegged to a USD equivalent, refundable under defined criteria. Provide waivers or sponsorship for applicants in disadvantaged regions.
+## Representatives and Governance
 
- ## Voting Power and Token Types
+**Q: Should representatives undergo KYC or lock up stake?**  
+**A:** KYC can be strongly recommended using privacy-preserving services but not mandatory. Requiring a CKB stake adds complexity with little to no benefit and may deter qualified candidates, so it is not required.
 
- **Q: Should iCKB or unlocked CKB be recognized for voting?**  
- **A:** Yes. To prevent borrow-based attacks, new UTXOs start with zero voting weight and scale to full weight over 180 epochs (~30 days), aligning with Nervos DAO lockup logic.
+**Q: How to address problematic voting incidents?**  
+**A:** Representatives involved in misconduct cases are still subject to local law and may face legal consequences, which is why KYC is recommended. Users can take direct action through liquid democracy; shifting their delegated power to another representative immediately.
 
- ## Governance and Incident Handling
+**Q: Who audits and oversees DAO activities?**  
+**A:** Auditors review processes and fraud reports via a confidential ticketing system. Report status updates are public; details are published post-review or after a delay.
 
- **Q: How to address problematic voting incidents?**  
- **A:** Representatives involved in misconduct cases are still subject to local law and may face legal consequences, which is why KYC is recommended. Users can take direct action through liquid democracy; shifting their delegated power to another representative immediately.
+## Proposals and Funding
 
- **Q: Who audits and oversees DAO activities?**  
- **A:** Auditors review processes and fraud reports via a confidential ticketing system. Report status updates are public; details are published post-review or after a delay.
+**Q: Is a 100k CKB fee too high? How to set a fair barrier?**  
+**A:** Implement a modest "waste-of-time" fee pegged to a USD equivalent, refundable under defined criteria. Provide waivers or sponsorship for applicants in disadvantaged regions.
 
- ## Collaboration and Community Roles
+**Q: Can external teams (e.g., Magicbase Labs) be funded to build infrastructure?**  
+**A:** Yes, the DAO can provide funding to external teams aligned with its goals.
 
- **Q: Can external teams (e.g., Magicbase Labs) be funded to build infrastructure?**  
- **A:** Yes, the DAO can grant funding to external teams aligned with its goals.
-
- **Q: Should DAO ambassadors or business development roles exist?**  
- **A:** Yes, as community-funded roles separate from core DAO operational roles, responsible for scouting and securing high-quality proposals.
-
-
- 
+**Q: Should DAO ambassadors or business development roles exist?**  
+**A:** Yes, as community-funded roles separate from core DAO operational roles, responsible for scouting and securing high-quality proposals.
