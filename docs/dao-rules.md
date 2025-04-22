@@ -50,3 +50,17 @@ There are two primary types of voting that can be used to make decisions within 
 1. Projects that receive grant funding in excess of $50,000 USD must agree to provide a reasonable means for the Nervos community to persist the project if the team chooses to abandon it. In most cases the most simple way to accomplish this is to transfer the full source code and all relevant data, accounts, and rights, to a community team that can takeover operation of the project. If a suitable team cannot be found, the project must be open sourced completely.
 1. Projects that sell virtual assets must agree to provide a reasonable means for the Nervos community to persist said assets if the team chooses to abandon it. Failing to do so is considered a breach of contract, gross negligence, and destruction of personal property.
 1. Projects that fail to meet the requirements of the public funding policies must return the full amount of the grant to the DAO treasury within 90 days of the violation. Projects that are in violation and fail to repay the grant within the 90 day period are subject to pursuit of legal action.
+
+### Voting Restrictions
+
+1. Entities which custodially hold assets for other individuals may not vote or delegate their voting power on behalf of those individuals. This includes but is not limited to custodial wallets, exchanges, and or investment funds.
+1. Grant applicants may not attempt to coerce voters by offering them a share of the grant funding, or by offering to give them any other form of compensation in exchange for their vote.
+
+### Conflict of Interest Disclosures
+
+1. Participants in review or decision-making roles (e.g., Proposal Screeners, Technical Reviewers, Project Reviewers, Treasurers, Vault Guardians, Auditors, Representatives) must publicly disclose any actual or potential conflicts of interest before undertaking their duties.
+1. Disclosures must be updated promptly upon any change in status and must be made publicly viewable on the DAO platform.
+
+### Dispute Resolution Process
+
+- TBD
