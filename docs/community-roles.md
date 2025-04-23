@@ -63,7 +63,7 @@ Responsible for managing media channels and creating consistent messaging about 
 - Maintains official social media accounts.
 - Produces regular content highlighting ecosystem progress.
 - Coordinates announcements with project teams.
-    - Ensures accurate representation of CKB in crypto media.
+- Ensures accurate representation of CKB in crypto media.
 
 ### Ecosystem Event Manager
 
