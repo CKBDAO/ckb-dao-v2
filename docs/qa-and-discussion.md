@@ -21,6 +21,9 @@ A concise summary of key questions and answers regarding DAO design, voting, and
 **Q: How to mitigate delegate voting power concentration?**  
 **A:** While saturation algorithms (diminishing returns on delegation) were considered, they introduce vulnerabilities to Sybil attacks without KYC and may over-empower anonymous large holders. The liquid democracy approach allows token holders to immediately withdraw delegation if representatives act against their interests. Transparency and active participation remain the primary mitigations.
 
+**Q: What are the trade-offs of setting a maximum delegation limit on representatives?**  
+**A:** Setting a hard cap on the voting power a single representative can receive helps prevent overcentralization. However, strict limits can dilute the influence of highly qualified delegates, especially in smaller or emerging ecosystems. This may incentivize Sybil attacks which can only be mitigated by requiring additional identity verification.
+
 **Q: Should iCKB or unlocked CKB be recognized for voting?**  
 **A:** Yes. To prevent borrow-based attacks, new UTXOs start with zero voting weight and scale to full weight over 180 epochs (~30 days), aligning with Nervos DAO lockup logic.
 
