@@ -21,3 +21,5 @@ Questions and comments can be added as [GitHub Issues](https://github.com/CKBDAO
 ❓ [**Q/A and Discussion**](docs/qa-and-discussion.md) - Provides answers to many general  questions about DAO design, voting mechanisms, and governance decisions which were asked during the early discussion phase.
 
 🖼️ [**DAO Portal Mockups**](docs/dao-portal-mockups.md) - Provides high-level concepts of the user interface for demonstration purposes.
+
+📝 [**Discussion Topics & Future Considerations**](docs/discussion-topics-and-future-considerations.md) - Tracks topics and proposals for current and future DAO governance discussions.
